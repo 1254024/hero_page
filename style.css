@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(28, 26, 26);
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+.input1{
+    width: 200px;
+    height: 20px;
+    border-bottom: 3px solid whitesmoke;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+.button1 > button{
+    
+    width: 120px;
+    height: 50px;
+    background-color: rgb(59, 190, 59);
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+.button1 > button:hover{
+    background-color: rgb(44, 135, 44);
+    color: rgb(189, 181, 181);
+    box-shadow: 0px 4px 0px rgb(145, 236, 145);
+    margin-right: 10px;
+}
+.fa-solid{
+    color: white;
+    background-color: transparent;
+}
+.fa-solid:hover{
+    color: rgb(189, 181, 181);
+}
+hr{
+    margin-top: 10px;
+height: 3px;
+color: rgb(11, 250, 11);
+}
+
+/* Header 2 Start */
+.header2 > ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.header2 > ul >li >a{
+    text-decoration: none;
+   font-size: large;
+   color: white;
+
+}
+.header2 > ul >li >a:hover {
+    color: green;
+    box-shadow: 0 3px 0 rgb(105, 216, 105);
+    letter-spacing: 2px;
+}
+.header2 > ul >li:hover .drop{
+    display: block;
+    color: orange;
+}
+.header2 > ul >li >a:active{
+    color: red;
+    box-shadow: 0 3px 0 rgb(255, 0, 0);
+}
+.drop{
+    display: none;
+    margin-top: 7px;
+}
+.drop > li{
+     width: 150px;
+    height: 30px;
+    list-style: none;
+}
+.drop > li>a{
+text-decoration: none;
+color: white;
+font-size: large;
+}
+.drop > li>a:hover{
+    color: green;
+    box-shadow: 0 3px 0 rgb(105, 216, 105);
+    letter-spacing: 2px;
+}
+
+/* Content page  */
+
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0 60%;
+    margin-top: 60px;
+    margin-left: 20px;
+    color: white;
+    font-size: xx-large;
+}
+.left >img{
+    flex: 0 40%;
+  height: 350px;
+}
+.input2{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid gainsboro;
+}
+.btn{
+    width: 60px;
+    height: 34px;
+    padding: 9px;
+    background-color: green;
+    color: white;
+    font-style: italic;
+    font-size: 14px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(27, 204, 27);
+}
+/* Footer 1  */
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    background-color: transparent;
+    margin-top: 10px;
+}
+.footer1 > button{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font-size: large;
+    color: white;
+}
+.footer1 > button:hover{
+    background-color:white;
+    color: green;
+    border-radius: 10px;
+    box-shadow: 0 3px 0 rgb(216, 173, 105);
+}
+/* footer 2 */
+.footer2{
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.footer2> button{
+    width: 110px;
+    height: 30px;
+    background-color: green;
+    font-size: large;
+    color: white;
+}
+.footer2> button:hover{
+    background: linear-gradient(to top, red 1%,white);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 0 rgb(216, 173, 105);
+}
+
